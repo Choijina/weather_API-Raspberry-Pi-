@@ -1,8 +1,1 @@
-# weather_API-Raspberry-Pi-
-
-cd virtual_env  
-source raspi-venv/bin/activate  
-cd EmbededProject projects myproject  
-set FLASK_APP=run.py  
-set FLASK_ENV=development  
-flask run
+라즈베리파이와 기상청 API를 연동하고, 센서를 이용해 현재 기온과 알맞은 옷차림을 추천하는 웹사이트입니다.
